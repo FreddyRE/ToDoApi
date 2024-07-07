@@ -1,0 +1,10 @@
+{
+  "name": "C# Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/dotnet:6.0",
+  "extensions": ["ms-dotnettools.csharp", "ms-azuretools.vscode-docker"],
+  "postCreateCommand": "dotnet restore",
+  "ports": [5000, 5001],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
